@@ -2,7 +2,7 @@
 
 **Status:** In Progress  
 **Location:** Epe Local Government Area, Lagos State, Nigeria  
-**Started:** October 2026
+**Started:** September 2026
 
 ## Project Overview
 
