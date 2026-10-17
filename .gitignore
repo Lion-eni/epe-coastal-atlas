@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*token*
+*secret*
+credentials.json
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Large local datasets — review before publishing
+data/raw/*
+data/processed/*
+outputs/
