@@ -1,0 +1,18 @@
+{
+    "dataset": "Epe Fisheries and Aquaculture Boundary Validation",
+    "validation_date": "2026-10-17",
+    "boundary_source": "GRID3 Nigeria Local Government Area boundaries with names",
+    "boundary_layer": "GRID3_NGA_LGA_bounds_names",
+    "boundary_attributes": {
+        "lga_name": "Epe",
+        "state_name": "Lagos",
+        "lga_code": "25007"
+    },
+    "source_crs": "EPSG:4326",
+    "analysis_crs": "EPSG:32631",
+    "method": "Point-in-polygon using GeoPandas/Shapely",
+    "features_tested": 9,
+    "features_inside_epe_lga": 9,
+    "features_not_strictly_inside": 0,
+    "interpretation": "All tested points fall strictly inside the retrieved Epe LGA polygon. This confirms administrative containment only; it does not independently verify the real-world accuracy of each site coordinate."
+}
